@@ -1,0 +1,68 @@
+.parent{
+    background-color: lightsalmon;
+    /* width: 70%;
+    height: 300px; */
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.child{
+    background-color: lightpink;
+    
+}
+.one{
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-image: url("https://images.cnbctv18.com/uploads/2024/07/mahesh-babu-ambani-wedding-2024-07-b10de06ed1f26d4be7e14ebd7ea73117.jpg"); */
+    /* background-size: cover; */
+}
+img{
+    /* width: 300px; */
+   
+}
+.two{
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+   
+    
+}
+
+.three{
+    
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.parent1{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.mahesh{
+    background-color: lightgreen;
+}
+.a{
+    display: grid;
+    justify-content: center;
+}
+.img1{
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.h{
+    margin-left: 120px;
+}
